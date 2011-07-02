@@ -11,5 +11,7 @@ yh->th
 Why this is useful? Well first of all, when you want to move files named with Unicode characters
 to a file system that doesn't support unicode, you can transliterate the letters.
 
+Usage:
+DictionaryRenamer <dictionary_file> <dir_to_rename_file_in>
 
 MS@svedersoft.com, 11/07
