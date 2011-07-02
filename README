@@ -1,0 +1,15 @@
+﻿This is distributed under the CC Attribution license:
+http://creativecommons.org/licenses/by/3.0/
+
+A simple script that take as input a dictionary file and a directory. It then changes the filenames in the
+directory according to the dictionary file. Structure of dictionary files:
+i->I
+yh->th
+ואכ->utf
+...
+
+Why this is useful? Well first of all, when you want to move files named with Unicode characters
+to a file system that doesn't support unicode, you can transliterate the letters.
+
+
+MS@svedersoft.com, 11/07
