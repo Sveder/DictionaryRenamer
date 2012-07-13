@@ -17,7 +17,7 @@ for i in res.result:
             trans += t[c]
         else:
             trans += c
-    trans = trans.encode("ascii")
+    trans = trans.encode("ascii", "replace")
     print i[u"address"], u":", trans
 	
 	
